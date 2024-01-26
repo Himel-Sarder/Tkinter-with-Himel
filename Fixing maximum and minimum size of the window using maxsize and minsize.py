@@ -6,6 +6,7 @@ root = Tk()
 # No one can now expand the size of the
 # root window than the specified one.
 root.maxsize(400, 200)
+root.minsize(200, 100)
 
 # Adding widgets to the root window
 Label(root, text = 'Himel Sarder',
