@@ -21,5 +21,21 @@ label.pack()
 
 root.mainloop()
 
+'''
+The state=NORMAL
+----------------
+                is the default state, where the radiobutton is responsive.
+
+The state=ACTIVE
+----------------
+                is the state when the cursor is currently over the radiobutton. This state is automatically activated when the cursor hovers over the widget.
+
+The state=DISABLED
+------------------
+                is used to gray out the control and make it unresponsive. 
+
+
+In the example, I initially set R2 to be disabled.
+'''
 #Himel Sarder
 #Dept. of CSE, BSFMSTU
